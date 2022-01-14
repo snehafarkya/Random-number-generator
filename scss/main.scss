@@ -1,0 +1,39 @@
+body{
+    background: url("https://img.freepik.com/free-vector/falling-numbers-big-data-concept-binary-white-flying-digits-precious-futuristic-banner-black-background-digital-vector-illustration-with-falling-numbers_174187-4169.jpg?size=626&ext=jpg");
+    background-size: cover;
+   
+   font-family:cursive;
+
+    .container{
+        text-align: center;
+        display: block;
+        margin-top: 2em;
+        h1{
+            color: white;
+            font-size: 3em;
+            font-weight: bold;
+        }
+
+        input,button{
+            margin-top: 2em;
+            padding: 1em;
+            border: none;
+            outline: none;
+            font-weight: 400;
+            border-radius: 6px;
+            filter: drop-shadow(3px 5px 2px rgba(253, 253, 253, 0.548));
+        }
+        button{
+            padding: 0.8em;
+            background-color: indigo;
+            color: white;
+      border-radius: 0px;
+      cursor: pointer;
+      filter: drop-shadow(black 2px 2px);
+        }
+    }
+    .randomNum
+    {
+        color: white;
+    }
+}
